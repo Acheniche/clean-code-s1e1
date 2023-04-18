@@ -30,20 +30,20 @@
 .content__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .content__task-row-wrapper {
   display: flex;
 }
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .dot, .h3 {
-  list-style:none;
+  list-style: none;
 }
 .input, .btn{
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -116,8 +116,8 @@
   font-size: 18px;
   width: 226px;
 }
-.dot >    .input[type="text"] {
-  width: 226px
+.dot > .input[type="text"] {
+  width: 226px;
 }
 .btn.content__delete .content__img {
   height: 2em;
@@ -136,14 +136,14 @@
 
 /* Edit Task */
 .list .dot .input[type=text] {
-  display:none
+  display: none;
 }
 
 .list .dot.content__edit-mode .input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .list .dot.content__edit-mode .label {
-  display:none;
+  display: none;
 }
